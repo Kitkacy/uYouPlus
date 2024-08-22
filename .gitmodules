@@ -66,3 +66,6 @@
 [submodule "/home/wicek/Documents/GitHub/uYouPlus/Tweaks/YTUnShorts"]
 	path = /home/wicek/Documents/GitHub/uYouPlus/Tweaks/YTUnShorts
 	url = https://github.com/PoomSmart/YTUnShorts.git
+[submodule "Tweaks/YTUnShorts"]
+	path = Tweaks/YTUnShorts
+	url = https://github.com/PoomSmart/YTUnShorts
