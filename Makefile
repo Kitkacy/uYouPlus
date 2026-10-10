@@ -58,6 +58,12 @@ internal-clean::
 
 ifneq ($(JAILBROKEN),1)
 before-all::
+	@# Logos mishandles %orig.mutableCopy on current Theos; keep RYD pinned and patch in-tree.
+	@if grep -q '%orig.mutableCopy' Tweaks/Return-YouTube-Dislikes/Settings.x 2>/dev/null; then \
+		$(PRINT_FORMAT_BLUE) "Patching Return-YouTube-Dislikes for Theos/clang"; \
+		patch -p1 -d Tweaks/Return-YouTube-Dislikes < Patches/ryd-settings-theos.patch; \
+	fi
+before-all::
 	@if [[ ! -f $(UYOU_DEB) ]]; then \
 		rm -rf $(UYOU_PATH)/*; \
 		$(PRINT_FORMAT_BLUE) "Downloading uYou"; \
