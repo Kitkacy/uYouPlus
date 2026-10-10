@@ -82,6 +82,13 @@ jobs:
           path: theos
           submodules: recursive
 
+      # Logos after theos/logos#114 drops text following %orig(...) on the same line, which breaks most bundled tweaks.
+      - name: Pin Logos
+        run: |
+          cd theos/vendor/logos
+          git fetch --depth=1 origin a62370066a97e36d59b200a9fa10c5091f5e8972
+          git checkout --detach a62370066a97e36d59b200a9fa10c5091f5e8972
+
       - name: Caching SDK
         id: SDK
         uses: actions/cache@v4
