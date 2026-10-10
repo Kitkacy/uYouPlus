@@ -51,6 +51,10 @@ NSArray *copyKeys = @[
     /* MAIN     Shorts Keys */ 
     kHideBuySuperThanks,
     kHideSubscriptions,
+    /* MAIN Block Shorts Keys */
+    kBlockShortsTab,
+    kBlockShortsInFeeds,
+    kBlockShortsPlayer,
     /* MAIN       Misc Keys */ 
     kHideiSponsorBlockButton,
     kDisableHints,
@@ -316,6 +320,13 @@ extern NSBundle *uYouPlusBundle();
 
     SWITCH(LOC(@"HIDE_SUPER_THANKS"), LOC(@"HIDE_SUPER_THANKS_DESC"), kHideBuySuperThanks);
     SWITCH(LOC(@"HIDE_SUBCRIPTIONS"), LOC(@"HIDE_SUBCRIPTIONS_DESC"), kHideSubscriptions);
+
+    # pragma mark - Block Shorts
+    SECTION_HEADER(LOC(@"BLOCK_SHORTS_OPTIONS"));
+
+    SWITCH2(LOC(@"BLOCK_SHORTS_TAB"), LOC(@"BLOCK_SHORTS_TAB_DESC"), kBlockShortsTab);
+    SWITCH2(LOC(@"BLOCK_SHORTS_IN_FEEDS"), LOC(@"BLOCK_SHORTS_IN_FEEDS_DESC"), kBlockShortsInFeeds);
+    SWITCH2(LOC(@"BLOCK_SHORTS_PLAYER"), LOC(@"BLOCK_SHORTS_PLAYER_DESC"), kBlockShortsPlayer);
 
     # pragma mark - Miscellaneous
     SECTION_HEADER(LOC(@"MISCELLANEOUS"));

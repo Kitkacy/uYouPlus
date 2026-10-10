@@ -59,6 +59,10 @@ static NSString *const kHideRightPanel = @"hideRightPanel_enabled";
 // Shorts control overlay
 static NSString *const kHideBuySuperThanks = @"hideBuySuperThanks_enabled";
 static NSString *const kHideSubscriptions = @"hideSubscriptions_enabled";
+// Block Shorts
+static NSString *const kBlockShortsTab = @"blockShortsTab_enabled";
+static NSString *const kBlockShortsInFeeds = @"blockShortsInFeeds_enabled";
+static NSString *const kBlockShortsPlayer = @"blockShortsPlayer_enabled";
 // Miscellaneous
 static NSString *const kHideiSponsorBlockButton = @"hideiSponsorBlockButton_enabled";
 static NSString *const kDisableHints = @"disableHints_enabled";

@@ -97,32 +97,34 @@ See [Installation - Wiki](https://github.com/qnblackcat/uYouPlus/wiki/Installati
 
 4. **[YTUHD](https://poomsmart.github.io/repo/depictions/ytuhd):** Unlock 1440p (2K) and 2160p (4K) resolutions in iOS YouTube app.
 
+5. **Block Shorts** (built in, `Sources/YTNoShorts.xm`): Hide the Shorts tab, remove Shorts from feeds and open Shorts in the regular video player. Each part can be toggled in uYouPlus settings under 🚫 Block Shorts. Feed filtering is based on [YTUnShorts](https://poomsmart.github.io/repo/) by PoomSmart.
+
 <details>
   <summary>And many more!</summary>
 
-5. **[YTClassicVideoQuality](https://poomsmart.github.io/repo/depictions/ytclassicvideoquality):** Revert to the original video quality selector in YouTube app.
+6. **[YTClassicVideoQuality](https://poomsmart.github.io/repo/depictions/ytclassicvideoquality):** Revert to the original video quality selector in YouTube app.
 
-6. **[YTNoHoverCards](https://level3tjg.me/repo/depictions/?p=com.level3tjg.ytnohovercards):** Disable overlay at the end of YouTube videos.
+7. **[YTNoHoverCards](https://level3tjg.me/repo/depictions/?p=com.level3tjg.ytnohovercards):** Disable overlay at the end of YouTube videos.
 
-7. **[YouRememberCaption](https://poomsmart.github.io/repo/depictions/youremembercaption)**: Make YouTube remember your video caption setting, if not already.
+8. **[YouRememberCaption](https://poomsmart.github.io/repo/depictions/youremembercaption)**: Make YouTube remember your video caption setting, if not already.
 
-8. **[NoYTPremium](https://poomsmart.github.io/repo/depictions/noytpremium)**: Remove YouTube Premium upsell alerts.
+9. **[NoYTPremium](https://poomsmart.github.io/repo/depictions/noytpremium)**: Remove YouTube Premium upsell alerts.
 
-9. **[YTMiniplayerEnabler](https://level3tjg.me/repo/depictions/?p=com.level3tjg.ytminiplayerenabler)**: Enable Miniplayer for all YouTube videos.
+10. **[YTMiniplayerEnabler](https://level3tjg.me/repo/depictions/?p=com.level3tjg.ytminiplayerenabler)**: Enable Miniplayer for all YouTube videos.
 
-10. **[DontEatMyContent](https://github.com/therealFoxster/DontEatMyContent)**: Prevent the notch/Dynamic Island from munching on 2:1 video content in YouTube.
+11. **[DontEatMyContent](https://github.com/therealFoxster/DontEatMyContent)**: Prevent the notch/Dynamic Island from munching on 2:1 video content in YouTube.
 
-11. **[YTABConfig](https://poomsmart.github.io/repo/depictions/ytabconfig)**: Configure A/B settings in iOS YouTube app.
+12. **[YTABConfig](https://poomsmart.github.io/repo/depictions/ytabconfig)**: Configure A/B settings in iOS YouTube app.
 
-12. **[YouMute](https://poomsmart.github.io/repo/depictions/youmute)**: Mute/unmute videos in iOS YouTube directly.
+13. **[YouMute](https://poomsmart.github.io/repo/depictions/youmute)**: Mute/unmute videos in iOS YouTube directly.
 
-13. **[YouQuality](https://poomsmart.github.io/repo/depictions/youquality)**: View and change video quality in YouTube app from the video overlay.
+14. **[YouQuality](https://poomsmart.github.io/repo/depictions/youquality)**: View and change video quality in YouTube app from the video overlay.
 
-14. **[YouTube-X](https://poomsmart.github.io/repo/depictions/ytx)**: A lightweight YouTube improvement tweak.
+15. **[YouTube-X](https://poomsmart.github.io/repo/depictions/ytx)**: A lightweight YouTube improvement tweak.
 
-15. **[YouGroupSettings](https://chariz.com/get/yougroupsettings)**: Group settings in YouTube app.
+16. **[YouGroupSettings](https://chariz.com/get/yougroupsettings)**: Group settings in YouTube app.
 
-16. **[YouSpeed](https://poomsmart.github.io/repo/depictions/youspeed)**: Speed up or slow down YouTube videos from the video overlay. Also add more video speeds.
+17. **[YouSpeed](https://poomsmart.github.io/repo/depictions/youspeed)**: Speed up or slow down YouTube videos from the video overlay. Also add more video speeds.
 
 </details>
 

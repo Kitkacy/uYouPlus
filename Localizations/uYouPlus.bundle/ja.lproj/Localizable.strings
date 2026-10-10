@@ -156,3 +156,12 @@
 
 "GOOGLE_SIGNIN_FIX" = "Google sign-in fix";
 "GOOGLE_SIGNIN_FIX_DESC" = "";
+
+// Block Shorts
+"BLOCK_SHORTS_OPTIONS" = "🚫 Block Shorts";
+"BLOCK_SHORTS_TAB" = "Hide Shorts tab";
+"BLOCK_SHORTS_TAB_DESC" = "Removes the Shorts tab from the bottom bar. App restart is required.";
+"BLOCK_SHORTS_IN_FEEDS" = "Remove Shorts from feeds";
+"BLOCK_SHORTS_IN_FEEDS_DESC" = "Removes Shorts shelves and Shorts videos from Home, Subscriptions, Search and other feeds. App restart is required.";
+"BLOCK_SHORTS_PLAYER" = "Block Shorts player";
+"BLOCK_SHORTS_PLAYER_DESC" = "Opens Shorts in the regular video player instead of the Shorts player, and closes the Shorts player if it still appears. App restart is required.";
